@@ -1,0 +1,42 @@
+body
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+#exceltable2
+{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+#exceltable2 th
+{
+    background-color: #F7F7F7;
+    color: #333;
+    font-weight: bold;
+}
+#exceltable2 th
+{
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #4c5875;
+    color: azure;
+
+}
+#exceltable2 td
+{
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: azure;
+
+}
+
+#exceltable2 tr:nth-child(even) {
+    background-color:#fd5e1f; 
+}
+#exceltable2 tr:nth-child(odd) {
+    background-color:#fe703c 
+}
+#exceltable2 th:nth-child(8), #exceltable2 td:nth-child(8){
+    background-color:#4b6335; 
+}
+
